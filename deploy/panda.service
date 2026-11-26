@@ -1,0 +1,25 @@
+[Unit]
+Description=PANDA (Pin And Network-based Door Authentication) - IoT WebSocket Gateway
+After=network.target postgresql.service
+Requires=postgresql.service
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+WorkingDirectory=/home/pi/PANDA
+EnvironmentFile=/home/pi/PANDA/.env
+ExecStart=/home/pi/PANDA/venv/bin/uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --workers 1
+
+# Automatic restart on failure
+Restart=always
+RestartSec=5
+
+# Hardening / Sandboxing
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=read-only
+ReadWritePaths=/home/pi/PANDA/backend/firmware_bins /home/pi/PANDA/logs
+
+[Install]
+WantedBy=multi-user.target

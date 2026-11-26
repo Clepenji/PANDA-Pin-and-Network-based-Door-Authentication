@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" rx="36" fill="#0f172a"/>
+  <circle cx="96" cy="96" r="76" fill="#1e293b" stroke="#334155" stroke-width="4"/>
+  <!-- Shield Outline -->
+  <path d="M96 36 L144 56 C144 104 116 136 96 156 C76 136 48 104 48 56 Z" fill="#0f172a" stroke="#10b981" stroke-width="6" stroke-linejoin="round"/>
+  <!-- Key icon inside -->
+  <circle cx="96" cy="80" r="16" fill="none" stroke="#06b6d4" stroke-width="6"/>
+  <path d="M96 96 L96 132 M96 114 L110 114 M96 126 L106 126" stroke="#06b6d4" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "7": "env.py",
+  "8": "compilerOptions",
+  "11": "compilerOptions",
+  "26": "vite-env.d.ts",
+  "29": "tailwind.config.js",
+  "33": "notification_service.py",
+  "36": "websocket_endpoint",
+  "38": "schemas/space.py",
+  "42": "fe5f1af294f7_update_models_and_entry_logs.py",
+  "47": "postcss.config.js",
+  "50": "test_concurrent_pin_generation_uniqueness_and_revocation",
+  "55": "tailwind.config.js",
+  "56": "sw.js",
+  "58": "tailwind.config.js",
+  "59": "start_services.sh",
+  "60": "stop_services.sh",
+  "61": "postcss.config.js",
+  "62": "sw.js"
+}
